@@ -1,12 +1,12 @@
-````markdown
-# Vaccine Travel Advisor
+### Vaccine Travel Advisor
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) 
-![React](https://img.shields.io/badge/React-18%2B-blue) 
-![GitHub](https://img.shields.io/badge/GitHub-Repo-green)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 
 Vaccine Travel Advisor is a web application to explore safe travel destinations based on health conditions such as **Rheumatoid Arthritis** or **Pregnancy**, avoiding live vaccines where necessary. It also highlights malaria risk per country.
 
+````markdown
 ## 🚀 Features
 
 - Filter countries by condition (RA, Pregnancy) or show all.
