@@ -1,0 +1,57 @@
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* responsive 6+ columns */
+  gap: 1rem;
+  width: 100%; /* span the parent container */
+  max-width: 1400px; /* limits overall grid width */
+  margin: 0 auto; /* center grid */
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-items: center; /* centers cards in each column */
+}
+
+/* Card styling (CountryCard root element) */
+.country-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+  max-width: 180px; /* allows larger cards for readability */
+}
+
+.country-card:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.country-card h3 {
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.country-card .toggle {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.country-card .details {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.country-card .details a {
+  word-break: break-all; /* long URLs won’t overflow */
+}
+
+/* Ensure body background is light */
+body {
+  background: #f7f7f7;
+  color: #222;
+}
